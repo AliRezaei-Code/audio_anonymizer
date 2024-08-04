@@ -3,7 +3,8 @@
 #include <vector>
 #include <portaudio.h>
 #include <sndfile.h>
-#include <SoundTouch.h>
+#include <soundtouch/SoundTouch.h>
+#include <cstring>  // Include this header for memcpy
 
 using namespace std;
 using namespace soundtouch;
